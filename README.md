@@ -13,7 +13,6 @@ pip install -r requirements.txt
 Usage: 
 ```shell
 project-gallerizer.py
-
+```
 
 Will generate navigation gallery source codes (alphabetical & randomized) from the [CoMakingSpace Wiki](https://wiki.comakingspace.de/) "Project" namespace - more features planned!
-```
