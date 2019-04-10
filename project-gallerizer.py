@@ -94,8 +94,8 @@ def extractinfoboxes(wikitext, infoboxname):
 ##### execution of the script #####
 session = mwapi.Session(host='https://wiki.comakingspace.de', api_path='/api.php')
 
-#asks for the first **3** pages in the "Project" namespace (ID 4)
-Response = session.get(action='query', list='allpages', apnamespace='4', aplimit='3')
+#asks for the first **500** pages in the "Project" namespace (ID 4)
+Response = session.get(action='query', list='allpages', apnamespace='4', aplimit='500')
 
 #initialize array that collects outputs for messing with later
 navigationInfo = []
